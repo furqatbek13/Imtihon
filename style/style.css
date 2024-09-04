@@ -4,7 +4,61 @@
   box-sizing: border-box;
 }
 
+:root {
+  --headtextcolor: rgba(54, 55, 56, 1);
+  --textcolor: rgba(107, 107, 108, 1);
+  --headbtncolor: rgba(54, 55, 56, 1);
+}
+
 .continer {
   margin: auto;
   width: 1280px;
+}
+
+.flex {
+  display: flex;
+}
+
+.head {
+  padding-top: 100px;
+}
+.head .head_descriptions {
+  padding-top: 120px;
+}
+.head .head_descriptions h1 {
+  font-family: Exo 2;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: left;
+  color: var(--headtextcolor);
+  padding-bottom: 40px;
+}
+.head .head_descriptions p {
+  width: 525px;
+  height: 66px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: var(--textcolor);
+  margin-bottom: 40px;
+}
+.head .head_descriptions button {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--headbtncolor);
+}
+.head .head_descriptions .line {
+  width: 104px;
+  height: 0px;
+  border: 3px;
+  border: 3px solid rgb(255, 206, 80);
 }/*# sourceMappingURL=style.css.map */
