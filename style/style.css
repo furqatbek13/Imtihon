@@ -7,7 +7,6 @@
 :root {
   --headtextcolor: rgba(54, 55, 56, 1);
   --textcolor: rgba(107, 107, 108, 1);
-  --headbtncolor: rgba(54, 55, 56, 1);
 }
 
 .continer {
@@ -20,7 +19,7 @@
 }
 
 .head {
-  padding-top: 100px;
+  padding: 100px 0px;
 }
 .head .head_descriptions {
   padding-top: 120px;
@@ -54,11 +53,63 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  color: var(--headbtncolor);
+  color: var(--headtextcolor);
 }
 .head .head_descriptions .line {
   width: 104px;
   height: 0px;
   border: 3px;
   border: 3px solid rgb(255, 206, 80);
+}
+
+.section-1 {
+  width: 1240px;
+  height: 341px;
+  top: 681px;
+  left: 100px;
+  gap: 0px;
+  border-radius: 20px;
+  border: 1px;
+  opacity: 0px;
+  border: 1px solid rgb(215, 215, 221);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 67px;
+}
+.section-1 .card {
+  width: 430px;
+  height: 245px;
+  padding: 40px 80px;
+}
+.section-1 .card img {
+  margin-bottom: 24px;
+}
+.section-1 .card h2 {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: var(--headtextcolor);
+  padding-bottom: 16px;
+}
+.section-1 .card p {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: var(--textcolor);
+  width: 225px;
+  height: 65px;
+}
+.section-1 .card .lines {
+  width: 261px;
+  height: 0px;
+  top: 721px;
+  left: 513px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  rotate: -90 deg;
+  color: rgb(4, 40, 139);
 }/*# sourceMappingURL=style.css.map */
