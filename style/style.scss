@@ -184,6 +184,67 @@
         color: var(--textcolor);
         width: 460px;
         height: 41px;
-        padding-bottom: 56px;
+        margin-bottom: 56px;
+    }
+
+    .truck_cards_service {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .truck_service_cards {
+        width: 393px;
+        height: 450px;
+        border-radius: 10px;
+        opacity: 0px;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+
+        img {
+            margin-bottom: 24px;
+        }
+
+        h3 {
+            font-family: Exo 2;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 27px;
+            text-align: left;
+            color: var(--headtextcolor);
+            margin: 16px 32px;
+        }
+
+        p {
+            font-family: PT Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: var(--textcolor);
+            margin: 16px 32px;
+        }
+
+        .line_orange {
+            width: 76px;
+            height: 0px;
+            top: 2543px;
+            left: 132px;
+            gap: 0px;
+            border: 3px 0px 0px 0px;
+            opacity: 0px;
+            border: 2px solid rgba(255, 206, 80, 1);
+            margin-left: 32px;
+        }
+
+        h4 {
+            font-family: Exo 2;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 21.6px;
+            text-align: left;
+            color: var(--headtextcolor);
+            margin: 0px 32px;
+            @extend .line
+        }
     }
 }
