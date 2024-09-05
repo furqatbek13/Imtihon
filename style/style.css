@@ -281,4 +281,46 @@
   text-align: left;
   color: var(--textcolor);
   padding-bottom: 32px;
+}
+
+.section-5 {
+  padding: 50px 0px;
+}
+.section-5 h1 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: var(--headtextcolor);
+  padding-bottom: 48px;
+}
+.section-5 .delivery_stages {
+  width: 1183px;
+  height: 245px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 24px;
+}
+.section-5 .delivery_stages .delivery_stages_descriptions {
+  display: flex;
+  padding: 32px 96px;
+  gap: 56px;
+}
+.section-5 .delivery_stages .delivery_stages_descriptions .delivery_stages_text h4 {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: var(--headtextcolor);
+  padding-bottom: 24px;
+}
+.section-5 .delivery_stages .delivery_stages_descriptions .delivery_stages_text p {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: var(--textcolor);
 }/*# sourceMappingURL=style.css.map */
