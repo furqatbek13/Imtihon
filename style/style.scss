@@ -1,3 +1,4 @@
+@import url(./__section1.scss);
 * {
     padding: 0;
     margin: 0;
@@ -69,6 +70,10 @@
             border: 3px solid rgba(255, 206, 80, 1)
         }
     }
+}
+@media (max-width: 738px) {
+    display: flex;
+    flex-direction: column;
 }
 
 .section-1 {
