@@ -383,4 +383,65 @@
   line-height: 21px;
   text-align: center;
   color: var(--textcolor);
+}
+
+.section-7 {
+  padding: 50px 0px;
+}
+.section-7 h1 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: var(--headtextcolor);
+  padding-bottom: 72px;
+}
+.section-7 .Company_employees {
+  display: flex;
+  justify-content: space-between;
+}
+.section-7 .Company_employees_cards {
+  width: 605px;
+  height: 210px;
+  top: 5651px;
+  left: 100px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 30px;
+  cursor: pointer;
+  margin: 24px 30px;
+}
+.section-7 .Company_employees_cards h3 {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: var(--headtextcolor);
+  padding-bottom: 12px;
+}
+.section-7 .Company_employees_cards p {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: var(--textcolor);
+  padding-bottom: 16px;
+}
+.section-7 .Company_employees_cards .line_golderon {
+  width: 86px;
+  height: 0px;
+  border: 3px 0px 0px 0px;
+  border: 3px solid rgb(255, 206, 80);
+  margin-bottom: 32px;
+}
+.section-7 .Company_employees_cards img {
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */
