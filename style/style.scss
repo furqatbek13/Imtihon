@@ -284,6 +284,7 @@
         opacity: 0px;
         background-color: rgba(255, 255, 255, 1);
         margin: 70px 30px;
+
         .information {
             width: 588px;
             height: 508px;
@@ -494,7 +495,8 @@
         color: var(--headtextcolor);
         padding-bottom: 72px;
     }
-    .Company_employees{
+
+    .Company_employees {
         display: flex;
         justify-content: space-between;
     }
@@ -545,9 +547,105 @@
             border: 3px solid rgba(255, 206, 80, 1);
             margin-bottom: 32px;
         }
-        img{
+
+        img {
             margin-right: 20px;
         }
     }
 
+}
+
+.section-8 {
+    padding: 100px 0px;
+
+    .company_descriptions {
+        display: flex;
+        gap: 198px;
+    }
+
+    h1 {
+        font-family: Exo 2;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: left;
+        color: var(--headtextcolor);
+        padding-bottom: 94px;
+    }
+
+    .contacts_div {
+        display: flex;
+        gap: 36px;
+        align-items: center;
+        padding-bottom: 40px;
+
+        img {
+            width: 35px;
+            height: 35px;
+        }
+
+        p {
+            font-family: PT Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            color: var(--textcolor);
+            padding-bottom: 8px;
+        }
+
+        h5 {
+            font-family: Exo 2;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: left;
+            color: var(--headtextcolor);
+        }
+    }
+
+    .company_info {
+        width: 794px;
+        height: 100%;
+        border-radius: 5px;
+        background: rgba(249, 249, 251, 1);
+
+        .grey_line {
+            width: 600px;
+            border: 1px solid rgba(211, 211, 211, 0.546);
+            margin-left: 45px;
+        }
+
+        .company_info_top {
+            display: flex;
+            align-items: center;
+            gap: 56px;
+            margin-top: 32px;
+            padding: 15px 48px;
+
+            p {
+                font-family: PT Sans;
+                width: 200px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+                color: var(--textcolor);
+            }
+
+            .info_p {
+                padding-right: 150px;
+            }
+
+            h2 {
+                font-family: Exo 2;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 20px;
+                text-align: left;
+                color: var(--headtextcolor);
+
+            }
+        }
+    }
 }
